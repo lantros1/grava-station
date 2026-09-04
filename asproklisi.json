@@ -2,55 +2,41 @@
  "station": "ASPROKLISI (ADCON panel 23235)",
  "field": "GRAVA - Sagiada, Thesprotia",
  "lw_threshold": 7,
- "published_utc": "2026-09-04T02:05:01Z",
- "published_local": "2026-09-04 05:05",
- "last_measurement_local": "2026-09-04 04:10",
+ "published_utc": "2026-09-04T04:05:02Z",
+ "published_local": "2026-09-04 07:05",
+ "last_measurement_local": "2026-09-04 06:10",
  "station_lag_minutes": 55,
- "n_measurements": 889,
+ "n_measurements": 901,
  "latest": {
-  "temp_c": 20.39,
-  "rh": 73.56,
+  "temp_c": 19.56,
+  "rh": 76.97,
   "leaf_wetness": 10.0,
   "rain_mm": 0.0
  },
  "summary": {
   "wet_hours_last_24h": 6.7,
-  "max_wet_streak_last_24h_h": 4.3,
+  "max_wet_streak_last_24h_h": 4.0,
   "currently_wet": true,
-  "avg_rh_while_wet": 83.4,
-  "avg_temp_while_wet": 19.8,
-  "max_rh_while_wet": 91.8,
+  "avg_rh_while_wet": 81.0,
+  "avg_temp_while_wet": 19.7,
+  "max_rh_while_wet": 91.2,
   "rain_mm_last_24h": 0.0
  },
  "last_wet_episode": {
   "start": "2026-09-04 02:20",
-  "end": "2026-09-04 04:10",
-  "duration_h": 2.0,
-  "avg_temp_c": 20.6,
-  "max_rh": 79.2,
-  "temp_in_range_20_30": true,
+  "end": "2026-09-04 06:10",
+  "duration_h": 4.0,
+  "avg_temp_c": 19.8,
+  "max_rh": 86.9,
+  "temp_in_range_20_30": false,
   "still_ongoing": true
  },
  "station_risk_now": "🟢",
  "hourly_last_48h": [
   {
-   "t": "2026-09-02 04:10",
-   "temp": 22.54,
-   "rh": 92.74,
-   "lw": 10.0,
-   "rain": 0.0
-  },
-  {
-   "t": "2026-09-02 05:00",
-   "temp": 22.61,
-   "rh": 89.72,
-   "lw": 10.0,
-   "rain": 0.0
-  },
-  {
-   "t": "2026-09-02 06:00",
-   "temp": 22.01,
-   "rh": 91.34,
+   "t": "2026-09-02 06:10",
+   "temp": 21.99,
+   "rh": 91.19,
    "lw": 10.0,
    "rain": 0.0
   },
@@ -373,6 +359,20 @@
    "t": "2026-09-04 04:00",
    "temp": 20.7,
    "rh": 71.83,
+   "lw": 10.0,
+   "rain": 0.0
+  },
+  {
+   "t": "2026-09-04 05:00",
+   "temp": 18.82,
+   "rh": 84.05,
+   "lw": 10.0,
+   "rain": 0.0
+  },
+  {
+   "t": "2026-09-04 06:00",
+   "temp": 19.1,
+   "rh": 79.88,
    "lw": 10.0,
    "rain": 0.0
   }
