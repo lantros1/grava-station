@@ -1,43 +1,43 @@
 {
  "station": "GRABA Meteo Farm (WU IPLESS26)",
  "field": "GRAVA - Sagiada, Thesprotia",
- "lw_source": "mixed",
- "lw_measured_hours": 48,
- "lw_estimated_hours": 1,
+ "lw_source": "measured (ASPROKLISI)",
+ "lw_measured_hours": 49,
+ "lw_estimated_hours": 0,
  "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: OK (github, 55')",
  "lw_note": "Μετρημένο LW από ΑΣΠΡΟΚΛΗΣΙ (~14 km). Όπου λείπει, εκτίμηση από RH/δρόσο/βροχή της ΓΡΑΒΑΣ. Αντικαθίσταται όταν μπει ο ESP32 στο χωράφι.",
  "lw_threshold": 7,
- "published_utc": "2026-09-08T04:05:08Z",
- "published_local": "2026-09-08 07:05",
- "last_measurement_local": "2026-09-08 07:04:49",
+ "published_utc": "2026-09-08T05:05:08Z",
+ "published_local": "2026-09-08 08:05",
+ "last_measurement_local": "2026-09-08 08:04:49",
  "station_lag_minutes": 0,
  "n_measurements": 152,
  "latest": {
   "temp_c": 23,
-  "rh": 64,
+  "rh": 61,
   "dewpt_c": 15,
   "leaf_wetness": 0.0,
   "rain_mm": 0.0,
-  "wind_kmh": 0,
-  "solar_wm2": 0.4
+  "wind_kmh": 1,
+  "solar_wm2": 15.6
  },
  "summary": {
-  "wet_hours_last_24h": 10.0,
-  "max_wet_streak_last_24h_h": 8.0,
-  "currently_wet": false,
-  "avg_rh_while_wet": 62.7,
-  "avg_temp_while_wet": 24.3,
+  "wet_hours_last_24h": 11.0,
+  "max_wet_streak_last_24h_h": 9.0,
+  "currently_wet": true,
+  "avg_rh_while_wet": 62.9,
+  "avg_temp_while_wet": 24.2,
   "max_rh_while_wet": 79.0,
   "rain_mm_last_24h": 0.0
  },
  "last_wet_episode": {
   "start": "2026-09-07 23:59",
-  "end": "2026-09-08 06:59",
-  "duration_h": 8.0,
-  "avg_temp_c": 24.6,
+  "end": "2026-09-08 07:59",
+  "duration_h": 9.0,
+  "avg_temp_c": 24.4,
   "max_rh": 65.0,
   "temp_in_range_20_30": true,
-  "still_ongoing": false
+  "still_ongoing": true
  },
  "station_risk_now": "🟡",
  "hourly_last_48h": [
@@ -426,11 +426,11 @@
    "rain": 0.0
   },
   {
-   "t": "2026-09-08 07:04",
+   "t": "2026-09-08 07:59",
    "temp": 23.0,
-   "rh": 64.0,
-   "lw": 0.0,
-   "lw_src": "estimated",
+   "rh": 65.0,
+   "lw": 10.0,
+   "lw_src": "measured",
    "rain": 0.0
   }
  ]
