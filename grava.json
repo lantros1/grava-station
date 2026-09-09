@@ -7,48 +7,40 @@
  "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: OK (github, 55')",
  "lw_note": "Μετρημένο LW από ΑΣΠΡΟΚΛΗΣΙ (~14 km). Όπου λείπει, εκτίμηση από RH/δρόσο/βροχή της ΓΡΑΒΑΣ. Αντικαθίσταται όταν μπει ο ESP32 στο χωράφι.",
  "lw_threshold": 7,
- "published_utc": "2026-09-09T05:05:11Z",
- "published_local": "2026-09-09 08:05",
- "last_measurement_local": "2026-09-09 08:04:36",
+ "published_utc": "2026-09-09T06:05:08Z",
+ "published_local": "2026-09-09 09:05",
+ "last_measurement_local": "2026-09-09 09:04:41",
  "station_lag_minutes": 0,
- "n_measurements": 152,
+ "n_measurements": 153,
  "latest": {
-  "temp_c": 23,
-  "rh": 81,
-  "dewpt_c": 19,
-  "leaf_wetness": 4.0,
+  "temp_c": 25,
+  "rh": 73,
+  "dewpt_c": 20,
+  "leaf_wetness": 2.0,
   "rain_mm": 0.0,
   "wind_kmh": 0,
-  "solar_wm2": 15.3
+  "solar_wm2": 29.0
  },
  "summary": {
   "wet_hours_last_24h": 13.0,
-  "max_wet_streak_last_24h_h": 12.0,
+  "max_wet_streak_last_24h_h": 13.0,
   "currently_wet": true,
-  "avg_rh_while_wet": 76.5,
-  "avg_temp_while_wet": 25.0,
+  "avg_rh_while_wet": 77.5,
+  "avg_temp_while_wet": 25.1,
   "max_rh_while_wet": 82.0,
   "rain_mm_last_24h": 0.0
  },
  "last_wet_episode": {
   "start": "2026-09-08 20:59",
-  "end": "2026-09-09 07:59",
-  "duration_h": 12.0,
-  "avg_temp_c": 25.2,
+  "end": "2026-09-09 08:59",
+  "duration_h": 13.0,
+  "avg_temp_c": 25.1,
   "max_rh": 82.0,
   "temp_in_range_20_30": true,
   "still_ongoing": true
  },
- "station_risk_now": "🟡",
+ "station_risk_now": "🔴",
  "hourly_last_48h": [
-  {
-   "t": "2026-09-07 07:59",
-   "temp": 23.0,
-   "rh": 79.0,
-   "lw": 10.0,
-   "lw_src": "measured",
-   "rain": 0.0
-  },
   {
    "t": "2026-09-07 08:59",
    "temp": 23.0,
@@ -429,6 +421,14 @@
    "t": "2026-09-09 07:59",
    "temp": 23.0,
    "rh": 79.0,
+   "lw": 10.0,
+   "lw_src": "measured",
+   "rain": 0.0
+  },
+  {
+   "t": "2026-09-09 08:59",
+   "temp": 24.0,
+   "rh": 78.0,
    "lw": 10.0,
    "lw_src": "measured",
    "rain": 0.0
