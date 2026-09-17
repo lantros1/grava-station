@@ -4,30 +4,30 @@
  "lw_source": "estimated",
  "lw_measured_hours": 0,
  "lw_estimated_hours": 49,
- "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: μπαγιάτικο (1435' - offline)",
+ "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: μπαγιάτικο (1495' - offline)",
  "lw_note": "Μετρημένο LW από ΑΣΠΡΟΚΛΗΣΙ (~14 km). Όπου λείπει, εκτίμηση από RH/δρόσο/βροχή της ΓΡΑΒΑΣ. Αντικαθίσταται όταν μπει ο ESP32 στο χωράφι.",
  "lw_threshold": 7,
- "published_utc": "2026-09-17T01:05:09Z",
- "published_local": "2026-09-17 04:05",
- "last_measurement_local": "2026-09-17 04:04:02",
+ "published_utc": "2026-09-17T02:05:08Z",
+ "published_local": "2026-09-17 05:05",
+ "last_measurement_local": "2026-09-17 05:04:02",
  "station_lag_minutes": 1,
- "n_measurements": 148,
+ "n_measurements": 150,
  "latest": {
   "temp_c": 19,
-  "rh": 84,
-  "dewpt_c": 17,
+  "rh": 83,
+  "dewpt_c": 16,
   "leaf_wetness": 4.0,
   "rain_mm": 0.0,
   "wind_kmh": 0,
   "solar_wm2": 0.0
  },
  "summary": {
-  "wet_hours_last_24h": 5.0,
-  "max_wet_streak_last_24h_h": 5.0,
+  "wet_hours_last_24h": 4.0,
+  "max_wet_streak_last_24h_h": 4.0,
   "currently_wet": false,
-  "avg_rh_while_wet": 93.0,
+  "avg_rh_while_wet": 92.8,
   "avg_temp_while_wet": 18.8,
-  "max_rh_while_wet": 94.0,
+  "max_rh_while_wet": 93.0,
   "rain_mm_last_24h": 0.0
  },
  "last_wet_episode": {
@@ -41,22 +41,6 @@
  },
  "station_risk_now": "🟢",
  "hourly_last_48h": [
-  {
-   "t": "2026-09-15 03:59",
-   "temp": 24.0,
-   "rh": 57.0,
-   "lw": 0.0,
-   "lw_src": "estimated",
-   "rain": 0.0
-  },
-  {
-   "t": "2026-09-15 04:59",
-   "temp": 23.0,
-   "rh": 60.0,
-   "lw": 0.0,
-   "lw_src": "estimated",
-   "rain": 0.0
-  },
   {
    "t": "2026-09-15 05:59",
    "temp": 23.0,
@@ -429,6 +413,22 @@
    "t": "2026-09-17 03:59",
    "temp": 20.0,
    "rh": 81.0,
+   "lw": 4.0,
+   "lw_src": "estimated",
+   "rain": 0.0
+  },
+  {
+   "t": "2026-09-17 04:59",
+   "temp": 19.0,
+   "rh": 83.0,
+   "lw": 4.0,
+   "lw_src": "estimated",
+   "rain": 0.0
+  },
+  {
+   "t": "2026-09-17 05:04",
+   "temp": 19.0,
+   "rh": 83.0,
    "lw": 4.0,
    "lw_src": "estimated",
    "rain": 0.0
