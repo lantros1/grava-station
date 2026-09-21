@@ -4,17 +4,17 @@
  "lw_source": "estimated",
  "lw_measured_hours": 0,
  "lw_estimated_hours": 43,
- "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: μπαγιάτικο (8455' - offline)",
+ "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: μπαγιάτικο (8515' - offline)",
  "lw_note": "Μετρημένο LW από ΑΣΠΡΟΚΛΗΣΙ (~14 km). Όπου λείπει, εκτίμηση από RH/δρόσο/βροχή της ΓΡΑΒΑΣ. Αντικαθίσταται όταν μπει ο ESP32 στο χωράφι.",
  "lw_threshold": 7,
- "published_utc": "2026-09-21T22:05:11Z",
- "published_local": "2026-09-22 01:05",
- "last_measurement_local": "2026-09-22 01:04:23",
+ "published_utc": "2026-09-21T23:05:09Z",
+ "published_local": "2026-09-22 02:05",
+ "last_measurement_local": "2026-09-22 02:04:23",
  "station_lag_minutes": 0,
- "n_measurements": 139,
+ "n_measurements": 140,
  "latest": {
   "temp_c": 23,
-  "rh": 75,
+  "rh": 73,
   "dewpt_c": 18,
   "leaf_wetness": 2.0,
   "rain_mm": 0.0,
@@ -41,14 +41,6 @@
  },
  "station_risk_now": "🟢",
  "hourly_last_48h": [
-  {
-   "t": "2026-09-20 00:59",
-   "temp": 23.0,
-   "rh": 84.0,
-   "lw": 4.0,
-   "lw_src": "estimated",
-   "rain": 0.0
-  },
   {
    "t": "2026-09-20 01:59",
    "temp": 22.0,
@@ -379,6 +371,14 @@
   },
   {
    "t": "2026-09-22 00:58",
+   "temp": 23.0,
+   "rh": 74.0,
+   "lw": 2.0,
+   "lw_src": "estimated",
+   "rain": 0.0
+  },
+  {
+   "t": "2026-09-22 01:58",
    "temp": 23.0,
    "rh": 74.0,
    "lw": 2.0,
