@@ -4,12 +4,12 @@
  "lw_source": "estimated",
  "lw_measured_hours": 0,
  "lw_estimated_hours": 43,
- "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: μπαγιάτικο (8695' - offline)",
+ "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: μπαγιάτικο (8755' - offline)",
  "lw_note": "Μετρημένο LW από ΑΣΠΡΟΚΛΗΣΙ (~14 km). Όπου λείπει, εκτίμηση από RH/δρόσο/βροχή της ΓΡΑΒΑΣ. Αντικαθίσταται όταν μπει ο ESP32 στο χωράφι.",
  "lw_threshold": 7,
- "published_utc": "2026-09-22T02:05:07Z",
- "published_local": "2026-09-22 05:05",
- "last_measurement_local": "2026-09-22 05:04:49",
+ "published_utc": "2026-09-22T03:05:08Z",
+ "published_local": "2026-09-22 06:05",
+ "last_measurement_local": "2026-09-22 06:04:49",
  "station_lag_minutes": 0,
  "n_measurements": 144,
  "latest": {
@@ -378,9 +378,9 @@
    "rain": 0.0
   },
   {
-   "t": "2026-09-22 05:04",
+   "t": "2026-09-22 05:59",
    "temp": 23.0,
-   "rh": 77.0,
+   "rh": 76.0,
    "lw": 2.0,
    "lw_src": "estimated",
    "rain": 0.0
