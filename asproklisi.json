@@ -2,10 +2,10 @@
  "station": "ASPROKLISI (ADCON panel 23235)",
  "field": "GRAVA - Sagiada, Thesprotia",
  "lw_threshold": 7,
- "published_utc": "2026-09-30T07:05:02Z",
- "published_local": "2026-09-30 10:05",
+ "published_utc": "2026-09-30T08:05:02Z",
+ "published_local": "2026-09-30 11:05",
  "last_measurement_local": "2026-09-28 05:10",
- "station_lag_minutes": 3175,
+ "station_lag_minutes": 3235,
  "n_measurements": 895,
  "latest": {
   "temp_c": 11.58,
