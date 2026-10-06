@@ -7,48 +7,40 @@
  "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: OK (github, 55')",
  "lw_note": "Μετρημένο LW από ΑΣΠΡΟΚΛΗΣΙ (~14 km). Όπου λείπει, εκτίμηση από RH/δρόσο/βροχή της ΓΡΑΒΑΣ. Αντικαθίσταται όταν μπει ο ESP32 στο χωράφι.",
  "lw_threshold": 7,
- "published_utc": "2026-10-06T05:05:09Z",
- "published_local": "2026-10-06 08:05",
- "last_measurement_local": "2026-10-06 08:04:19",
+ "published_utc": "2026-10-06T06:05:08Z",
+ "published_local": "2026-10-06 09:05",
+ "last_measurement_local": "2026-10-06 09:04:19",
  "station_lag_minutes": 0,
- "n_measurements": 153,
+ "n_measurements": 154,
  "latest": {
-  "temp_c": 14,
-  "rh": 67,
-  "dewpt_c": 8,
+  "temp_c": 17,
+  "rh": 60,
+  "dewpt_c": 9,
   "leaf_wetness": 0.0,
   "rain_mm": 0.0,
-  "wind_kmh": 0,
-  "solar_wm2": 7.4
+  "wind_kmh": 1,
+  "solar_wm2": 18.7
  },
  "summary": {
   "wet_hours_last_24h": 13.0,
-  "max_wet_streak_last_24h_h": 11.0,
+  "max_wet_streak_last_24h_h": 12.0,
   "currently_wet": false,
-  "avg_rh_while_wet": 59.6,
-  "avg_temp_while_wet": 15.2,
+  "avg_rh_while_wet": 60.1,
+  "avg_temp_while_wet": 15.4,
   "max_rh_while_wet": 67.0,
   "rain_mm_last_24h": 0.0
  },
  "last_wet_episode": {
   "start": "2026-10-05 21:59",
-  "end": "2026-10-06 07:59",
-  "duration_h": 11.0,
-  "avg_temp_c": 15.4,
+  "end": "2026-10-06 08:59",
+  "duration_h": 12.0,
+  "avg_temp_c": 15.3,
   "max_rh": 67.0,
   "temp_in_range_20_30": false,
   "still_ongoing": false
  },
  "station_risk_now": "🟢",
  "hourly_last_48h": [
-  {
-   "t": "2026-10-04 08:59",
-   "temp": 14.0,
-   "rh": 56.0,
-   "lw": 10.0,
-   "lw_src": "measured",
-   "rain": 0.0
-  },
   {
    "t": "2026-10-04 09:59",
    "temp": 17.0,
@@ -426,9 +418,17 @@
    "rain": 0.0
   },
   {
-   "t": "2026-10-06 08:04",
-   "temp": 14.0,
-   "rh": 66.0,
+   "t": "2026-10-06 08:59",
+   "temp": 15.0,
+   "rh": 65.0,
+   "lw": 10.0,
+   "lw_src": "measured",
+   "rain": 0.0
+  },
+  {
+   "t": "2026-10-06 09:04",
+   "temp": 17.0,
+   "rh": 60.0,
    "lw": 0.0,
    "lw_src": "estimated",
    "rain": 0.0
