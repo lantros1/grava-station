@@ -3,28 +3,28 @@
  "field": "GRAVA - Sagiada, Thesprotia",
  "lw_source": "estimated",
  "lw_measured_hours": 0,
- "lw_estimated_hours": 48,
- "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: μπαγιάτικο (4135' - offline)",
+ "lw_estimated_hours": 49,
+ "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: μπαγιάτικο (4195' - offline)",
  "lw_note": "Μετρημένο LW από ΑΣΠΡΟΚΛΗΣΙ (~14 km). Όπου λείπει, εκτίμηση από RH/δρόσο/βροχή της ΓΡΑΒΑΣ. Αντικαθίσταται όταν μπει ο ESP32 στο χωράφι.",
  "lw_threshold": 7,
- "published_utc": "2026-10-09T15:05:08Z",
- "published_local": "2026-10-09 18:05",
- "last_measurement_local": "2026-10-09 18:04:17",
+ "published_utc": "2026-10-09T16:05:09Z",
+ "published_local": "2026-10-09 19:05",
+ "last_measurement_local": "2026-10-09 19:04:16",
  "station_lag_minutes": 0,
- "n_measurements": 162,
+ "n_measurements": 164,
  "latest": {
   "temp_c": 19,
-  "rh": 91,
-  "dewpt_c": 17,
-  "leaf_wetness": 8.0,
+  "rh": 85,
+  "dewpt_c": 16,
+  "leaf_wetness": 6.0,
   "rain_mm": 0.0,
-  "wind_kmh": 1,
-  "solar_wm2": 4.5
+  "wind_kmh": 2,
+  "solar_wm2": 0.6
  },
  "summary": {
   "wet_hours_last_24h": 11.0,
   "max_wet_streak_last_24h_h": 9.0,
-  "currently_wet": true,
+  "currently_wet": false,
   "avg_rh_while_wet": 92.7,
   "avg_temp_while_wet": 18.7,
   "max_rh_while_wet": 95.0,
@@ -37,18 +37,10 @@
   "avg_temp_c": 19.0,
   "max_rh": 92.0,
   "temp_in_range_20_30": false,
-  "still_ongoing": true
+  "still_ongoing": false
  },
  "station_risk_now": "🟢",
  "hourly_last_48h": [
-  {
-   "t": "2026-10-07 18:59",
-   "temp": 26.0,
-   "rh": 51.0,
-   "lw": 0.0,
-   "lw_src": "estimated",
-   "rain": 0.0
-  },
   {
    "t": "2026-10-07 19:59",
    "temp": 21.0,
@@ -422,6 +414,22 @@
    "temp": 19.0,
    "rh": 92.0,
    "lw": 8.0,
+   "lw_src": "estimated",
+   "rain": 0.0
+  },
+  {
+   "t": "2026-10-09 18:59",
+   "temp": 19.0,
+   "rh": 88.0,
+   "lw": 6.0,
+   "lw_src": "estimated",
+   "rain": 0.0
+  },
+  {
+   "t": "2026-10-09 19:04",
+   "temp": 19.0,
+   "rh": 85.0,
+   "lw": 6.0,
    "lw_src": "estimated",
    "rain": 0.0
   }
