@@ -3,60 +3,44 @@
  "field": "GRAVA - Sagiada, Thesprotia",
  "lw_source": "estimated",
  "lw_measured_hours": 0,
- "lw_estimated_hours": 49,
- "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: μπαγιάτικο (4735' - offline)",
+ "lw_estimated_hours": 48,
+ "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: μπαγιάτικο (4795' - offline)",
  "lw_note": "Μετρημένο LW από ΑΣΠΡΟΚΛΗΣΙ (~14 km). Όπου λείπει, εκτίμηση από RH/δρόσο/βροχή της ΓΡΑΒΑΣ. Αντικαθίσταται όταν μπει ο ESP32 στο χωράφι.",
  "lw_threshold": 7,
- "published_utc": "2026-10-10T01:05:08Z",
- "published_local": "2026-10-10 04:05",
- "last_measurement_local": "2026-10-10 04:04:22",
+ "published_utc": "2026-10-10T02:05:09Z",
+ "published_local": "2026-10-10 05:05",
+ "last_measurement_local": "2026-10-10 05:04:22",
  "station_lag_minutes": 0,
- "n_measurements": 148,
+ "n_measurements": 149,
  "latest": {
   "temp_c": 15,
-  "rh": 93,
+  "rh": 94,
   "dewpt_c": 14,
   "leaf_wetness": 9.0,
   "rain_mm": 0.0,
-  "wind_kmh": 1,
+  "wind_kmh": 3,
   "solar_wm2": 0.0
  },
  "summary": {
   "wet_hours_last_24h": 13.0,
   "max_wet_streak_last_24h_h": 6.0,
   "currently_wet": true,
-  "avg_rh_while_wet": 93.2,
-  "avg_temp_while_wet": 17.7,
+  "avg_rh_while_wet": 93.3,
+  "avg_temp_while_wet": 17.4,
   "max_rh_while_wet": 95.0,
   "rain_mm_last_24h": 0.0
  },
  "last_wet_episode": {
   "start": "2026-10-09 23:59",
-  "end": "2026-10-10 03:58",
-  "duration_h": 5.0,
-  "avg_temp_c": 16.2,
+  "end": "2026-10-10 04:58",
+  "duration_h": 6.0,
+  "avg_temp_c": 16.0,
   "max_rh": 94.0,
   "temp_in_range_20_30": false,
   "still_ongoing": true
  },
  "station_risk_now": "🟢",
  "hourly_last_48h": [
-  {
-   "t": "2026-10-08 03:59",
-   "temp": 16.0,
-   "rh": 69.0,
-   "lw": 0.0,
-   "lw_src": "estimated",
-   "rain": 0.0
-  },
-  {
-   "t": "2026-10-08 04:58",
-   "temp": 17.0,
-   "rh": 65.0,
-   "lw": 0.0,
-   "lw_src": "estimated",
-   "rain": 0.0
-  },
   {
    "t": "2026-10-08 05:58",
    "temp": 16.0,
@@ -428,6 +412,14 @@
   {
    "t": "2026-10-10 03:58",
    "temp": 16.0,
+   "rh": 93.0,
+   "lw": 9.0,
+   "lw_src": "estimated",
+   "rain": 0.0
+  },
+  {
+   "t": "2026-10-10 04:58",
+   "temp": 15.0,
    "rh": 93.0,
    "lw": 9.0,
    "lw_src": "estimated",
