@@ -7,48 +7,40 @@
  "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: OK (github, 55')",
  "lw_note": "Μετρημένο LW από ΑΣΠΡΟΚΛΗΣΙ (~14 km). Όπου λείπει, εκτίμηση από RH/δρόσο/βροχή της ΓΡΑΒΑΣ. Αντικαθίσταται όταν μπει ο ESP32 στο χωράφι.",
  "lw_threshold": 7,
- "published_utc": "2026-10-19T20:05:10Z",
- "published_local": "2026-10-19 23:05",
- "last_measurement_local": "2026-10-19 23:04:16",
+ "published_utc": "2026-10-19T21:05:09Z",
+ "published_local": "2026-10-20 00:05",
+ "last_measurement_local": "2026-10-20 00:04:22",
  "station_lag_minutes": 0,
- "n_measurements": 165,
+ "n_measurements": 145,
  "latest": {
   "temp_c": 15,
-  "rh": 84,
-  "dewpt_c": 13,
-  "leaf_wetness": 4.0,
+  "rh": 85,
+  "dewpt_c": 12,
+  "leaf_wetness": 6.0,
   "rain_mm": 0.0,
-  "wind_kmh": 0,
+  "wind_kmh": 1,
   "solar_wm2": 0.0
  },
  "summary": {
   "wet_hours_last_24h": 15.0,
-  "max_wet_streak_last_24h_h": 11.0,
+  "max_wet_streak_last_24h_h": 10.0,
   "currently_wet": false,
-  "avg_rh_while_wet": 80.4,
-  "avg_temp_while_wet": 14.0,
-  "max_rh_while_wet": 84.0,
+  "avg_rh_while_wet": 80.8,
+  "avg_temp_while_wet": 14.1,
+  "max_rh_while_wet": 85.0,
   "rain_mm_last_24h": 0.0
  },
  "last_wet_episode": {
   "start": "2026-10-19 19:59",
-  "end": "2026-10-19 22:59",
-  "duration_h": 4.0,
-  "avg_temp_c": 16.8,
-  "max_rh": 83.0,
+  "end": "2026-10-19 23:59",
+  "duration_h": 5.0,
+  "avg_temp_c": 16.4,
+  "max_rh": 85.0,
   "temp_in_range_20_30": false,
   "still_ongoing": false
  },
  "station_risk_now": "🟢",
  "hourly_last_48h": [
-  {
-   "t": "2026-10-17 23:59",
-   "temp": 12.0,
-   "rh": 72.0,
-   "lw": 10.0,
-   "lw_src": "measured",
-   "rain": 0.0
-  },
   {
    "t": "2026-10-18 00:59",
    "temp": 12.0,
@@ -426,10 +418,18 @@
    "rain": 0.0
   },
   {
-   "t": "2026-10-19 23:04",
+   "t": "2026-10-19 23:59",
    "temp": 15.0,
-   "rh": 84.0,
-   "lw": 4.0,
+   "rh": 85.0,
+   "lw": 10.0,
+   "lw_src": "measured",
+   "rain": 0.0
+  },
+  {
+   "t": "2026-10-20 00:04",
+   "temp": 15.0,
+   "rh": 85.0,
+   "lw": 6.0,
    "lw_src": "estimated",
    "rain": 0.0
   }
