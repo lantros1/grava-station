@@ -2,90 +2,41 @@
  "station": "ASPROKLISI (ADCON panel 23235)",
  "field": "GRAVA - Sagiada, Thesprotia",
  "lw_threshold": 7,
- "published_utc": "2026-10-20T04:05:02Z",
- "published_local": "2026-10-20 07:05",
- "last_measurement_local": "2026-10-20 00:10",
- "station_lag_minutes": 415,
- "n_measurements": 865,
+ "published_utc": "2026-10-20T05:05:02Z",
+ "published_local": "2026-10-20 08:05",
+ "last_measurement_local": "2026-10-20 07:10",
+ "station_lag_minutes": 55,
+ "n_measurements": 907,
  "latest": {
-  "temp_c": 11.78,
-  "rh": 94.58,
+  "temp_c": 10.82,
+  "rh": 95.5,
   "leaf_wetness": 10.0,
   "rain_mm": 0.0
  },
  "summary": {
   "wet_hours_last_24h": 15.2,
-  "max_wet_streak_last_24h_h": 9.7,
+  "max_wet_streak_last_24h_h": 12.5,
   "currently_wet": true,
-  "avg_rh_while_wet": 92.2,
-  "avg_temp_while_wet": 11.1,
-  "max_rh_while_wet": 95.3,
+  "avg_rh_while_wet": 92.8,
+  "avg_temp_while_wet": 11.8,
+  "max_rh_while_wet": 95.9,
   "rain_mm_last_24h": 0.0
  },
  "last_wet_episode": {
   "start": "2026-10-19 18:50",
-  "end": "2026-10-20 00:10",
-  "duration_h": 5.5,
-  "avg_temp_c": 13.4,
-  "max_rh": 95.3,
+  "end": "2026-10-20 07:10",
+  "duration_h": 12.5,
+  "avg_temp_c": 12.1,
+  "max_rh": 95.9,
   "temp_in_range_20_30": false,
   "still_ongoing": true
  },
  "station_risk_now": "🟢",
  "hourly_last_48h": [
   {
-   "t": "2026-10-18 00:10",
-   "temp": 8.66,
-   "rh": 87.2,
-   "lw": 10.0,
-   "rain": 0.0
-  },
-  {
-   "t": "2026-10-18 01:00",
-   "temp": 8.59,
-   "rh": 87.1,
-   "lw": 10.0,
-   "rain": 0.0
-  },
-  {
-   "t": "2026-10-18 02:00",
-   "temp": 8.64,
-   "rh": 86.18,
-   "lw": 10.0,
-   "rain": 0.0
-  },
-  {
-   "t": "2026-10-18 03:00",
-   "temp": 8.81,
-   "rh": 85.32,
-   "lw": 10.0,
-   "rain": 0.0
-  },
-  {
-   "t": "2026-10-18 04:00",
-   "temp": 9.01,
-   "rh": 84.35,
-   "lw": 10.0,
-   "rain": 0.0
-  },
-  {
-   "t": "2026-10-18 05:00",
-   "temp": 9.43,
-   "rh": 83.02,
-   "lw": 10.0,
-   "rain": 0.0
-  },
-  {
-   "t": "2026-10-18 06:00",
-   "temp": 9.06,
-   "rh": 83.55,
-   "lw": 10.0,
-   "rain": 0.0
-  },
-  {
-   "t": "2026-10-18 07:00",
-   "temp": 9.09,
-   "rh": 83.92,
+   "t": "2026-10-18 07:10",
+   "temp": 8.89,
+   "rh": 84.75,
    "lw": 10.0,
    "rain": 0.0
   },
@@ -373,6 +324,55 @@
    "t": "2026-10-20 00:00",
    "temp": 11.82,
    "rh": 94.68,
+   "lw": 10.0,
+   "rain": 0.0
+  },
+  {
+   "t": "2026-10-20 01:00",
+   "temp": 11.25,
+   "rh": 94.46,
+   "lw": 10.0,
+   "rain": 0.0
+  },
+  {
+   "t": "2026-10-20 02:00",
+   "temp": 11.42,
+   "rh": 94.58,
+   "lw": 10.0,
+   "rain": 0.0
+  },
+  {
+   "t": "2026-10-20 03:00",
+   "temp": 10.98,
+   "rh": 95.23,
+   "lw": 10.0,
+   "rain": 0.0
+  },
+  {
+   "t": "2026-10-20 04:00",
+   "temp": 10.94,
+   "rh": 95.29,
+   "lw": 10.0,
+   "rain": 0.0
+  },
+  {
+   "t": "2026-10-20 05:00",
+   "temp": 10.61,
+   "rh": 95.72,
+   "lw": 10.0,
+   "rain": 0.0
+  },
+  {
+   "t": "2026-10-20 06:00",
+   "temp": 10.86,
+   "rh": 95.58,
+   "lw": 10.0,
+   "rain": 0.0
+  },
+  {
+   "t": "2026-10-20 07:00",
+   "temp": 10.79,
+   "rh": 95.46,
    "lw": 10.0,
    "rain": 0.0
   }
