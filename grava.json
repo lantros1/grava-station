@@ -4,51 +4,43 @@
  "lw_source": "estimated",
  "lw_measured_hours": 0,
  "lw_estimated_hours": 49,
- "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: μπαγιάτικο (235' - offline)",
+ "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: μπαγιάτικο (295' - offline)",
  "lw_note": "Μετρημένο LW από ΑΣΠΡΟΚΛΗΣΙ (~14 km). Όπου λείπει, εκτίμηση από RH/δρόσο/βροχή της ΓΡΑΒΑΣ. Αντικαθίσταται όταν μπει ο ESP32 στο χωράφι.",
  "lw_threshold": 7,
- "published_utc": "2026-10-22T05:05:10Z",
- "published_local": "2026-10-22 08:05",
- "last_measurement_local": "2026-10-22 08:04:50",
+ "published_utc": "2026-10-22T06:05:09Z",
+ "published_local": "2026-10-22 09:05",
+ "last_measurement_local": "2026-10-22 09:04:50",
  "station_lag_minutes": 0,
- "n_measurements": 153,
+ "n_measurements": 154,
  "latest": {
   "temp_c": 18,
-  "rh": 97,
-  "dewpt_c": 17,
+  "rh": 96,
+  "dewpt_c": 18,
   "leaf_wetness": 9.0,
   "rain_mm": 4.57,
-  "wind_kmh": 2,
-  "solar_wm2": 2.5
+  "wind_kmh": 0,
+  "solar_wm2": 15.6
  },
  "summary": {
-  "wet_hours_last_24h": 5.0,
-  "max_wet_streak_last_24h_h": 5.0,
+  "wet_hours_last_24h": 6.0,
+  "max_wet_streak_last_24h_h": 6.0,
   "currently_wet": true,
-  "avg_rh_while_wet": 94.6,
-  "avg_temp_while_wet": 19.0,
+  "avg_rh_while_wet": 94.8,
+  "avg_temp_while_wet": 18.7,
   "max_rh_while_wet": 97.0,
   "rain_mm_last_24h": 4.6
  },
  "last_wet_episode": {
   "start": "2026-10-22 04:59",
-  "end": "2026-10-22 08:04",
-  "duration_h": 5.0,
-  "avg_temp_c": 19.0,
+  "end": "2026-10-22 09:04",
+  "duration_h": 6.0,
+  "avg_temp_c": 18.7,
   "max_rh": 97.0,
   "temp_in_range_20_30": false,
   "still_ongoing": true
  },
  "station_risk_now": "🟢",
  "hourly_last_48h": [
-  {
-   "t": "2026-10-20 08:59",
-   "temp": 14.0,
-   "rh": 87.0,
-   "lw": 6.0,
-   "lw_src": "estimated",
-   "rain": 0.0
-  },
   {
    "t": "2026-10-20 09:59",
    "temp": 16.0,
@@ -426,9 +418,17 @@
    "rain": 0.0
   },
   {
-   "t": "2026-10-22 08:04",
-   "temp": 18.0,
+   "t": "2026-10-22 08:59",
+   "temp": 17.0,
    "rh": 97.0,
+   "lw": 9.0,
+   "lw_src": "estimated",
+   "rain": 0.0
+  },
+  {
+   "t": "2026-10-22 09:04",
+   "temp": 18.0,
+   "rh": 96.0,
    "lw": 9.0,
    "lw_src": "estimated",
    "rain": 0.0
