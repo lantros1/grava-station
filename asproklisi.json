@@ -2,48 +2,41 @@
  "station": "ASPROKLISI (ADCON panel 23235)",
  "field": "GRAVA - Sagiada, Thesprotia",
  "lw_threshold": 7,
- "published_utc": "2026-10-25T12:05:01Z",
- "published_local": "2026-10-25 14:05",
- "last_measurement_local": "2026-10-25 14:10",
+ "published_utc": "2026-10-25T13:05:01Z",
+ "published_local": "2026-10-25 15:05",
+ "last_measurement_local": "2026-10-25 15:10",
  "station_lag_minutes": -5,
- "n_measurements": 949,
+ "n_measurements": 955,
  "latest": {
-  "temp_c": 19.11,
-  "rh": 73.14,
-  "leaf_wetness": 1.0,
+  "temp_c": 16.79,
+  "rh": 92.42,
+  "leaf_wetness": 10.0,
   "rain_mm": 0.0
  },
  "summary": {
-  "wet_hours_last_24h": 16.7,
+  "wet_hours_last_24h": 17.7,
   "max_wet_streak_last_24h_h": 16.3,
-  "currently_wet": false,
-  "avg_rh_while_wet": 94.6,
-  "avg_temp_while_wet": 14.6,
+  "currently_wet": true,
+  "avg_rh_while_wet": 94.0,
+  "avg_temp_while_wet": 14.8,
   "max_rh_while_wet": 97.9,
   "rain_mm_last_24h": 0.2
  },
  "last_wet_episode": {
-  "start": "2026-10-25 11:30",
-  "end": "2026-10-25 11:40",
-  "duration_h": 0.3,
-  "avg_temp_c": 15.7,
-  "max_rh": 93.3,
+  "start": "2026-10-25 14:20",
+  "end": "2026-10-25 15:10",
+  "duration_h": 1.0,
+  "avg_temp_c": 17.4,
+  "max_rh": 92.4,
   "temp_in_range_20_30": false,
-  "still_ongoing": false
+  "still_ongoing": true
  },
  "station_risk_now": "🟢",
  "hourly_last_48h": [
   {
-   "t": "2026-10-23 14:10",
-   "temp": 23.6,
-   "rh": 54.35,
-   "lw": 0.0,
-   "rain": 0.0
-  },
-  {
-   "t": "2026-10-23 15:00",
-   "temp": 23.56,
-   "rh": 56.67,
+   "t": "2026-10-23 15:10",
+   "temp": 23.69,
+   "rh": 55.77,
    "lw": 0.0,
    "rain": 0.0
   },
@@ -374,6 +367,13 @@
    "temp": 20.53,
    "rh": 65.37,
    "lw": 0.0,
+   "rain": 0.0
+  },
+  {
+   "t": "2026-10-25 15:00",
+   "temp": 16.85,
+   "rh": 89.62,
+   "lw": 10.0,
    "rain": 0.0
   }
  ]
