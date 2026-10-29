@@ -1,54 +1,46 @@
 {
  "station": "GRABA Meteo Farm (WU IPLESS26)",
  "field": "GRAVA - Sagiada, Thesprotia",
- "lw_source": "measured (ASPROKLISI)",
+ "lw_source": "mixed",
  "lw_measured_hours": 47,
- "lw_estimated_hours": 0,
+ "lw_estimated_hours": 1,
  "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: OK (github, 55')",
  "lw_note": "Μετρημένο LW από ΑΣΠΡΟΚΛΗΣΙ (~14 km). Όπου λείπει, εκτίμηση από RH/δρόσο/βροχή της ΓΡΑΒΑΣ. Αντικαθίσταται όταν μπει ο ESP32 στο χωράφι.",
  "lw_threshold": 7,
- "published_utc": "2026-10-29T19:05:12Z",
- "published_local": "2026-10-29 21:05",
- "last_measurement_local": "2026-10-29 21:04:56",
+ "published_utc": "2026-10-29T20:05:10Z",
+ "published_local": "2026-10-29 22:05",
+ "last_measurement_local": "2026-10-29 22:04:56",
  "station_lag_minutes": 0,
- "n_measurements": 47,
+ "n_measurements": 49,
  "latest": {
   "temp_c": 15,
-  "rh": 85,
+  "rh": 88,
   "dewpt_c": 13,
   "leaf_wetness": 6.0,
   "rain_mm": 0.0,
-  "wind_kmh": 1,
+  "wind_kmh": 0,
   "solar_wm2": 0.0
  },
  "summary": {
   "wet_hours_last_24h": 15.0,
-  "max_wet_streak_last_24h_h": 12.0,
-  "currently_wet": true,
-  "avg_rh_while_wet": 76.1,
+  "max_wet_streak_last_24h_h": 11.0,
+  "currently_wet": false,
+  "avg_rh_while_wet": 77.7,
   "avg_temp_while_wet": 14.1,
-  "max_rh_while_wet": 85.0,
+  "max_rh_while_wet": 86.0,
   "rain_mm_last_24h": 0.0
  },
  "last_wet_episode": {
   "start": "2026-10-29 18:59",
-  "end": "2026-10-29 20:59",
-  "duration_h": 3.0,
-  "avg_temp_c": 16.3,
-  "max_rh": 85.0,
+  "end": "2026-10-29 21:59",
+  "duration_h": 4.0,
+  "avg_temp_c": 16.0,
+  "max_rh": 86.0,
   "temp_in_range_20_30": false,
-  "still_ongoing": true
+  "still_ongoing": false
  },
  "station_risk_now": "🟢",
  "hourly_last_48h": [
-  {
-   "t": "2026-10-27 21:52",
-   "temp": 16.0,
-   "rh": 38.0,
-   "lw": 0.0,
-   "lw_src": "measured",
-   "rain": 0.0
-  },
   {
    "t": "2026-10-27 23:59",
    "temp": 15.0,
@@ -415,6 +407,22 @@
    "rh": 85.0,
    "lw": 10.0,
    "lw_src": "measured",
+   "rain": 0.0
+  },
+  {
+   "t": "2026-10-29 21:59",
+   "temp": 15.0,
+   "rh": 86.0,
+   "lw": 10.0,
+   "lw_src": "measured",
+   "rain": 0.0
+  },
+  {
+   "t": "2026-10-29 22:04",
+   "temp": 15.0,
+   "rh": 87.0,
+   "lw": 6.0,
+   "lw_src": "estimated",
    "rain": 0.0
   }
  ]
