@@ -2,24 +2,24 @@
  "station": "GRABA Meteo Farm (WU IPLESS26)",
  "field": "GRAVA - Sagiada, Thesprotia",
  "lw_source": "measured (ASPROKLISI)",
- "lw_measured_hours": 43,
+ "lw_measured_hours": 44,
  "lw_estimated_hours": 0,
  "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: OK (github, 55')",
  "lw_note": "Μετρημένο LW από ΑΣΠΡΟΚΛΗΣΙ (~14 km). Όπου λείπει, εκτίμηση από RH/δρόσο/βροχή της ΓΡΑΒΑΣ. Αντικαθίσταται όταν μπει ο ESP32 στο χωράφι.",
  "lw_threshold": 7,
- "published_utc": "2026-10-29T15:05:10Z",
- "published_local": "2026-10-29 17:05",
- "last_measurement_local": "2026-10-29 17:04:50",
+ "published_utc": "2026-10-29T16:05:08Z",
+ "published_local": "2026-10-29 18:05",
+ "last_measurement_local": "2026-10-29 18:04:56",
  "station_lag_minutes": 0,
- "n_measurements": 43,
+ "n_measurements": 44,
  "latest": {
-  "temp_c": 20,
-  "rh": 73,
-  "dewpt_c": 15,
-  "leaf_wetness": 2.0,
+  "temp_c": 18,
+  "rh": 80,
+  "dewpt_c": 14,
+  "leaf_wetness": 4.0,
   "rain_mm": 0.0,
-  "wind_kmh": 0,
-  "solar_wm2": 15.6
+  "wind_kmh": 1,
+  "solar_wm2": 0.0
  },
  "summary": {
   "wet_hours_last_24h": 14.0,
@@ -382,6 +382,14 @@
    "temp": 22.0,
    "rh": 62.0,
    "lw": 0.0,
+   "lw_src": "measured",
+   "rain": 0.0
+  },
+  {
+   "t": "2026-10-29 17:59",
+   "temp": 19.0,
+   "rh": 76.0,
+   "lw": 3.0,
    "lw_src": "measured",
    "rain": 0.0
   }
