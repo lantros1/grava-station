@@ -7,48 +7,40 @@
  "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: OK (github, 55')",
  "lw_note": "Μετρημένο LW από ΑΣΠΡΟΚΛΗΣΙ (~14 km). Όπου λείπει, εκτίμηση από RH/δρόσο/βροχή της ΓΡΑΒΑΣ. Αντικαθίσταται όταν μπει ο ESP32 στο χωράφι.",
  "lw_threshold": 7,
- "published_utc": "2026-11-11T19:05:10Z",
- "published_local": "2026-11-11 21:05",
- "last_measurement_local": "2026-11-11 21:04:53",
+ "published_utc": "2026-11-11T20:05:19Z",
+ "published_local": "2026-11-11 22:05",
+ "last_measurement_local": "2026-11-11 22:04:54",
  "station_lag_minutes": 0,
- "n_measurements": 166,
+ "n_measurements": 167,
  "latest": {
-  "temp_c": 19,
-  "rh": 90,
+  "temp_c": 20,
+  "rh": 89,
   "dewpt_c": 18,
-  "leaf_wetness": 9.0,
+  "leaf_wetness": 6.0,
   "rain_mm": 0.0,
   "wind_kmh": 1,
   "solar_wm2": 0.0
  },
  "summary": {
-  "wet_hours_last_24h": 25.0,
-  "max_wet_streak_last_24h_h": 25.0,
-  "currently_wet": true,
-  "avg_rh_while_wet": 91.9,
-  "avg_temp_while_wet": 18.2,
+  "wet_hours_last_24h": 24.0,
+  "max_wet_streak_last_24h_h": 24.0,
+  "currently_wet": false,
+  "avg_rh_while_wet": 92.0,
+  "avg_temp_while_wet": 18.3,
   "max_rh_while_wet": 98.0,
   "rain_mm_last_24h": 0.0
  },
  "last_wet_episode": {
   "start": "2026-11-10 20:59",
-  "end": "2026-11-11 21:04",
+  "end": "2026-11-11 21:59",
   "duration_h": 26.0,
   "avg_temp_c": 18.1,
   "max_rh": 98.0,
   "temp_in_range_20_30": false,
-  "still_ongoing": true
+  "still_ongoing": false
  },
  "station_risk_now": "🟢",
  "hourly_last_48h": [
-  {
-   "t": "2026-11-09 21:59",
-   "temp": 15.0,
-   "rh": 93.0,
-   "lw": 10.0,
-   "lw_src": "measured",
-   "rain": 0.0
-  },
   {
    "t": "2026-11-09 22:59",
    "temp": 15.0,
@@ -426,10 +418,18 @@
    "rain": 0.0
   },
   {
-   "t": "2026-11-11 21:04",
-   "temp": 19.0,
-   "rh": 90.0,
-   "lw": 9.0,
+   "t": "2026-11-11 21:59",
+   "temp": 20.0,
+   "rh": 88.0,
+   "lw": 10.0,
+   "lw_src": "measured",
+   "rain": 0.0
+  },
+  {
+   "t": "2026-11-11 22:04",
+   "temp": 20.0,
+   "rh": 88.0,
+   "lw": 6.0,
    "lw_src": "estimated",
    "rain": 0.0
   }
