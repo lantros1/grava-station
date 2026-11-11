@@ -4,59 +4,43 @@
  "lw_source": "estimated",
  "lw_measured_hours": 0,
  "lw_estimated_hours": 49,
- "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: μπαγιάτικο (1555' - offline)",
+ "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: μπαγιάτικο (1615' - offline)",
  "lw_note": "Μετρημένο LW από ΑΣΠΡΟΚΛΗΣΙ (~14 km). Όπου λείπει, εκτίμηση από RH/δρόσο/βροχή της ΓΡΑΒΑΣ. Αντικαθίσταται όταν μπει ο ESP32 στο χωράφι.",
  "lw_threshold": 7,
- "published_utc": "2026-11-11T05:05:09Z",
- "published_local": "2026-11-11 07:05",
- "last_measurement_local": "2026-11-11 07:04:22",
+ "published_utc": "2026-11-11T06:05:09Z",
+ "published_local": "2026-11-11 08:05",
+ "last_measurement_local": "2026-11-11 08:04:22",
  "station_lag_minutes": 0,
- "n_measurements": 151,
+ "n_measurements": 153,
  "latest": {
   "temp_c": 17,
-  "rh": 98,
-  "dewpt_c": 16,
+  "rh": 99,
+  "dewpt_c": 17,
   "leaf_wetness": 9.0,
   "rain_mm": 0.0,
   "wind_kmh": 0,
-  "solar_wm2": 0.0
+  "solar_wm2": 13.8
  },
  "summary": {
   "wet_hours_last_24h": 11.0,
-  "max_wet_streak_last_24h_h": 9.0,
+  "max_wet_streak_last_24h_h": 11.0,
   "currently_wet": true,
-  "avg_rh_while_wet": 94.1,
-  "avg_temp_while_wet": 15.4,
-  "max_rh_while_wet": 97.0,
+  "avg_rh_while_wet": 95.4,
+  "avg_temp_while_wet": 16.3,
+  "max_rh_while_wet": 98.0,
   "rain_mm_last_24h": 0.0
  },
  "last_wet_episode": {
   "start": "2026-11-10 22:59",
-  "end": "2026-11-11 06:58",
-  "duration_h": 9.0,
-  "avg_temp_c": 16.1,
-  "max_rh": 97.0,
+  "end": "2026-11-11 08:04",
+  "duration_h": 11.0,
+  "avg_temp_c": 16.3,
+  "max_rh": 98.0,
   "temp_in_range_20_30": false,
   "still_ongoing": true
  },
  "station_risk_now": "🟢",
  "hourly_last_48h": [
-  {
-   "t": "2026-11-09 06:59",
-   "temp": 15.0,
-   "rh": 89.0,
-   "lw": 6.0,
-   "lw_src": "estimated",
-   "rain": 0.0
-  },
-  {
-   "t": "2026-11-09 07:59",
-   "temp": 15.0,
-   "rh": 92.0,
-   "lw": 9.0,
-   "lw_src": "estimated",
-   "rain": 0.0
-  },
   {
    "t": "2026-11-09 08:59",
    "temp": 15.0,
@@ -429,6 +413,22 @@
    "t": "2026-11-11 06:58",
    "temp": 17.0,
    "rh": 97.0,
+   "lw": 9.0,
+   "lw_src": "estimated",
+   "rain": 0.0
+  },
+  {
+   "t": "2026-11-11 07:58",
+   "temp": 17.0,
+   "rh": 98.0,
+   "lw": 9.0,
+   "lw_src": "estimated",
+   "rain": 0.0
+  },
+  {
+   "t": "2026-11-11 08:04",
+   "temp": 17.0,
+   "rh": 98.0,
    "lw": 9.0,
    "lw_src": "estimated",
    "rain": 0.0
