@@ -3,23 +3,23 @@
  "field": "GRAVA - Sagiada, Thesprotia",
  "lw_source": "estimated",
  "lw_measured_hours": 0,
- "lw_estimated_hours": 49,
- "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: μπαγιάτικο (415' - offline)",
+ "lw_estimated_hours": 48,
+ "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: μπαγιάτικο (475' - offline)",
  "lw_note": "Μετρημένο LW από ΑΣΠΡΟΚΛΗΣΙ (~14 km). Όπου λείπει, εκτίμηση από RH/δρόσο/βροχή της ΓΡΑΒΑΣ. Αντικαθίσταται όταν μπει ο ESP32 στο χωράφι.",
  "lw_threshold": 7,
- "published_utc": "2026-11-13T13:05:10Z",
- "published_local": "2026-11-13 15:05",
- "last_measurement_local": "2026-11-13 15:04:33",
+ "published_utc": "2026-11-13T14:05:09Z",
+ "published_local": "2026-11-13 16:05",
+ "last_measurement_local": "2026-11-13 16:04:32",
  "station_lag_minutes": 0,
  "n_measurements": 160,
  "latest": {
   "temp_c": 22,
-  "rh": 84,
+  "rh": 85,
   "dewpt_c": 19,
-  "leaf_wetness": 4.0,
+  "leaf_wetness": 6.0,
   "rain_mm": 0.0,
   "wind_kmh": 0,
-  "solar_wm2": 64.0
+  "solar_wm2": 45.0
  },
  "summary": {
   "wet_hours_last_24h": 0.0,
@@ -41,14 +41,6 @@
  },
  "station_risk_now": "🟢",
  "hourly_last_48h": [
-  {
-   "t": "2026-11-11 15:58",
-   "temp": 21.0,
-   "rh": 89.0,
-   "lw": 6.0,
-   "lw_src": "estimated",
-   "rain": 0.0
-  },
   {
    "t": "2026-11-11 16:59",
    "temp": 21.0,
@@ -426,10 +418,10 @@
    "rain": 0.0
   },
   {
-   "t": "2026-11-13 15:04",
+   "t": "2026-11-13 15:59",
    "temp": 22.0,
-   "rh": 85.0,
-   "lw": 6.0,
+   "rh": 84.0,
+   "lw": 4.0,
    "lw_src": "estimated",
    "rain": 0.0
   }
