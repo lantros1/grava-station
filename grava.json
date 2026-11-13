@@ -4,51 +4,43 @@
  "lw_source": "estimated",
  "lw_measured_hours": 0,
  "lw_estimated_hours": 49,
- "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: μπαγιάτικο (835' - offline)",
+ "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: μπαγιάτικο (895' - offline)",
  "lw_note": "Μετρημένο LW από ΑΣΠΡΟΚΛΗΣΙ (~14 km). Όπου λείπει, εκτίμηση από RH/δρόσο/βροχή της ΓΡΑΒΑΣ. Αντικαθίσταται όταν μπει ο ESP32 στο χωράφι.",
  "lw_threshold": 7,
- "published_utc": "2026-11-13T20:05:11Z",
- "published_local": "2026-11-13 22:05",
- "last_measurement_local": "2026-11-13 22:04:43",
+ "published_utc": "2026-11-13T21:05:12Z",
+ "published_local": "2026-11-13 23:05",
+ "last_measurement_local": "2026-11-13 23:04:43",
  "station_lag_minutes": 0,
- "n_measurements": 167,
+ "n_measurements": 168,
  "latest": {
   "temp_c": 21,
-  "rh": 89,
+  "rh": 90,
   "dewpt_c": 19,
-  "leaf_wetness": 6.0,
+  "leaf_wetness": 8.0,
   "rain_mm": 0.0,
   "wind_kmh": 0,
   "solar_wm2": 0.0
  },
  "summary": {
-  "wet_hours_last_24h": 0.0,
-  "max_wet_streak_last_24h_h": 0.0,
-  "currently_wet": false,
-  "avg_rh_while_wet": null,
-  "avg_temp_while_wet": null,
-  "max_rh_while_wet": null,
+  "wet_hours_last_24h": 2.0,
+  "max_wet_streak_last_24h_h": 2.0,
+  "currently_wet": true,
+  "avg_rh_while_wet": 90.0,
+  "avg_temp_while_wet": 20.5,
+  "max_rh_while_wet": 90.0,
   "rain_mm_last_24h": 0.0
  },
  "last_wet_episode": {
-  "start": "2026-11-11 23:59",
-  "end": "2026-11-12 00:59",
+  "start": "2026-11-13 22:59",
+  "end": "2026-11-13 23:04",
   "duration_h": 2.0,
-  "avg_temp_c": 19.0,
+  "avg_temp_c": 20.5,
   "max_rh": 90.0,
-  "temp_in_range_20_30": false,
-  "still_ongoing": false
+  "temp_in_range_20_30": true,
+  "still_ongoing": true
  },
  "station_risk_now": "🟢",
  "hourly_last_48h": [
-  {
-   "t": "2026-11-11 22:59",
-   "temp": 20.0,
-   "rh": 86.0,
-   "lw": 6.0,
-   "lw_src": "estimated",
-   "rain": 0.0
-  },
   {
    "t": "2026-11-11 23:59",
    "temp": 19.0,
@@ -426,10 +418,18 @@
    "rain": 0.0
   },
   {
-   "t": "2026-11-13 22:04",
+   "t": "2026-11-13 22:59",
+   "temp": 20.0,
+   "rh": 90.0,
+   "lw": 9.0,
+   "lw_src": "estimated",
+   "rain": 0.0
+  },
+  {
+   "t": "2026-11-13 23:04",
    "temp": 21.0,
-   "rh": 88.0,
-   "lw": 6.0,
+   "rh": 90.0,
+   "lw": 8.0,
    "lw_src": "estimated",
    "rain": 0.0
   }
