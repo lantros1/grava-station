@@ -4,59 +4,43 @@
  "lw_source": "estimated",
  "lw_measured_hours": 0,
  "lw_estimated_hours": 49,
- "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: μπαγιάτικο (2935' - offline)",
+ "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: μπαγιάτικο (2995' - offline)",
  "lw_note": "Μετρημένο LW από ΑΣΠΡΟΚΛΗΣΙ (~14 km). Όπου λείπει, εκτίμηση από RH/δρόσο/βροχή της ΓΡΑΒΑΣ. Αντικαθίσταται όταν μπει ο ESP32 στο χωράφι.",
  "lw_threshold": 7,
- "published_utc": "2026-11-15T07:05:09Z",
- "published_local": "2026-11-15 09:05",
- "last_measurement_local": "2026-11-15 09:04:09",
- "station_lag_minutes": 1,
- "n_measurements": 153,
+ "published_utc": "2026-11-15T08:05:09Z",
+ "published_local": "2026-11-15 10:05",
+ "last_measurement_local": "2026-11-15 10:04:20",
+ "station_lag_minutes": 0,
+ "n_measurements": 155,
  "latest": {
-  "temp_c": 17,
-  "rh": 93,
-  "dewpt_c": 15,
-  "leaf_wetness": 8.0,
+  "temp_c": 18,
+  "rh": 87,
+  "dewpt_c": 16,
+  "leaf_wetness": 6.0,
   "rain_mm": 0.0,
   "wind_kmh": 0,
-  "solar_wm2": 40.5
+  "solar_wm2": 48.4
  },
  "summary": {
-  "wet_hours_last_24h": 15.0,
-  "max_wet_streak_last_24h_h": 15.0,
-  "currently_wet": true,
-  "avg_rh_while_wet": 93.1,
+  "wet_hours_last_24h": 16.0,
+  "max_wet_streak_last_24h_h": 16.0,
+  "currently_wet": false,
+  "avg_rh_while_wet": 93.0,
   "avg_temp_while_wet": 16.4,
   "max_rh_while_wet": 95.0,
   "rain_mm_last_24h": 0.0
  },
  "last_wet_episode": {
   "start": "2026-11-14 18:59",
-  "end": "2026-11-15 08:59",
-  "duration_h": 15.0,
+  "end": "2026-11-15 09:59",
+  "duration_h": 16.0,
   "avg_temp_c": 16.4,
   "max_rh": 95.0,
   "temp_in_range_20_30": false,
-  "still_ongoing": true
+  "still_ongoing": false
  },
  "station_risk_now": "🟢",
  "hourly_last_48h": [
-  {
-   "t": "2026-11-13 08:59",
-   "temp": 19.0,
-   "rh": 80.0,
-   "lw": 4.0,
-   "lw_src": "estimated",
-   "rain": 0.0
-  },
-  {
-   "t": "2026-11-13 09:59",
-   "temp": 20.0,
-   "rh": 77.0,
-   "lw": 2.0,
-   "lw_src": "estimated",
-   "rain": 0.0
-  },
   {
    "t": "2026-11-13 10:59",
    "temp": 20.0,
@@ -430,6 +414,22 @@
    "temp": 16.0,
    "rh": 94.0,
    "lw": 9.0,
+   "lw_src": "estimated",
+   "rain": 0.0
+  },
+  {
+   "t": "2026-11-15 09:59",
+   "temp": 17.0,
+   "rh": 91.0,
+   "lw": 8.0,
+   "lw_src": "estimated",
+   "rain": 0.0
+  },
+  {
+   "t": "2026-11-15 10:04",
+   "temp": 18.0,
+   "rh": 86.0,
+   "lw": 6.0,
    "lw_src": "estimated",
    "rain": 0.0
   }
