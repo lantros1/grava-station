@@ -4,36 +4,36 @@
  "lw_source": "estimated",
  "lw_measured_hours": 0,
  "lw_estimated_hours": 49,
- "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: μπαγιάτικο (3835' - offline)",
+ "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: μπαγιάτικο (3895' - offline)",
  "lw_note": "Μετρημένο LW από ΑΣΠΡΟΚΛΗΣΙ (~14 km). Όπου λείπει, εκτίμηση από RH/δρόσο/βροχή της ΓΡΑΒΑΣ. Αντικαθίσταται όταν μπει ο ESP32 στο χωράφι.",
  "lw_threshold": 7,
- "published_utc": "2026-11-15T22:05:10Z",
- "published_local": "2026-11-16 00:05",
- "last_measurement_local": "2026-11-16 00:04:17",
+ "published_utc": "2026-11-15T23:05:11Z",
+ "published_local": "2026-11-16 01:05",
+ "last_measurement_local": "2026-11-16 01:04:28",
  "station_lag_minutes": 0,
- "n_measurements": 145,
+ "n_measurements": 146,
  "latest": {
-  "temp_c": 15,
+  "temp_c": 16,
   "rh": 96,
-  "dewpt_c": 14,
+  "dewpt_c": 15,
   "leaf_wetness": 9.0,
   "rain_mm": 0.0,
-  "wind_kmh": 1,
+  "wind_kmh": 0,
   "solar_wm2": 0.0
  },
  "summary": {
   "wet_hours_last_24h": 17.0,
-  "max_wet_streak_last_24h_h": 10.0,
+  "max_wet_streak_last_24h_h": 9.0,
   "currently_wet": true,
-  "avg_rh_while_wet": 93.6,
+  "avg_rh_while_wet": 93.7,
   "avg_temp_while_wet": 16.0,
   "max_rh_while_wet": 96.0,
   "rain_mm_last_24h": 0.0
  },
  "last_wet_episode": {
   "start": "2026-11-15 18:59",
-  "end": "2026-11-16 00:04",
-  "duration_h": 7.0,
+  "end": "2026-11-16 01:04",
+  "duration_h": 8.0,
   "avg_temp_c": 16.0,
   "max_rh": 96.0,
   "temp_in_range_20_30": false,
@@ -41,14 +41,6 @@
  },
  "station_risk_now": "🟢",
  "hourly_last_48h": [
-  {
-   "t": "2026-11-14 00:59",
-   "temp": 20.0,
-   "rh": 91.0,
-   "lw": 8.0,
-   "lw_src": "estimated",
-   "rain": 0.0
-  },
   {
    "t": "2026-11-14 01:59",
    "temp": 20.0,
@@ -426,8 +418,16 @@
    "rain": 0.0
   },
   {
-   "t": "2026-11-16 00:04",
+   "t": "2026-11-16 00:59",
    "temp": 15.0,
+   "rh": 95.0,
+   "lw": 9.0,
+   "lw_src": "estimated",
+   "rain": 0.0
+  },
+  {
+   "t": "2026-11-16 01:04",
+   "temp": 16.0,
    "rh": 95.0,
    "lw": 9.0,
    "lw_src": "estimated",
