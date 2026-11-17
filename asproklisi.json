@@ -2,14 +2,14 @@
  "station": "ASPROKLISI (ADCON panel 23235)",
  "field": "GRAVA - Sagiada, Thesprotia",
  "lw_threshold": 7,
- "published_utc": "2026-11-17T14:05:02Z",
- "published_local": "2026-11-17 16:05",
- "last_measurement_local": "2026-11-17 15:10",
+ "published_utc": "2026-11-17T15:05:01Z",
+ "published_local": "2026-11-17 17:05",
+ "last_measurement_local": "2026-11-17 16:10",
  "station_lag_minutes": 55,
- "n_measurements": 955,
+ "n_measurements": 961,
  "latest": {
-  "temp_c": 21.66,
-  "rh": 54.66,
+  "temp_c": 21.51,
+  "rh": 60.14,
   "leaf_wetness": 0.0,
   "rain_mm": 0.0
  },
@@ -34,16 +34,9 @@
  "station_risk_now": "🟢",
  "hourly_last_48h": [
   {
-   "t": "2026-11-15 15:10",
-   "temp": 21.14,
-   "rh": 78.07,
-   "lw": 1.0,
-   "rain": 0.0
-  },
-  {
-   "t": "2026-11-15 16:00",
-   "temp": 20.29,
-   "rh": 78.67,
+   "t": "2026-11-15 16:10",
+   "temp": 20.23,
+   "rh": 78.21,
    "lw": 1.0,
    "rain": 0.0
   },
@@ -373,6 +366,13 @@
    "t": "2026-11-17 15:00",
    "temp": 21.88,
    "rh": 54.13,
+   "lw": 0.0,
+   "rain": 0.0
+  },
+  {
+   "t": "2026-11-17 16:00",
+   "temp": 21.57,
+   "rh": 58.04,
    "lw": 0.0,
    "rain": 0.0
   }
