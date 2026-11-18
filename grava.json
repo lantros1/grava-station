@@ -4,36 +4,36 @@
  "lw_source": "estimated",
  "lw_measured_hours": 0,
  "lw_estimated_hours": 49,
- "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: μπαγιάτικο (415' - offline)",
+ "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: μπαγιάτικο (475' - offline)",
  "lw_note": "Μετρημένο LW από ΑΣΠΡΟΚΛΗΣΙ (~14 km). Όπου λείπει, εκτίμηση από RH/δρόσο/βροχή της ΓΡΑΒΑΣ. Αντικαθίσταται όταν μπει ο ESP32 στο χωράφι.",
  "lw_threshold": 7,
- "published_utc": "2026-11-18T06:05:10Z",
- "published_local": "2026-11-18 08:05",
- "last_measurement_local": "2026-11-18 08:04:39",
+ "published_utc": "2026-11-18T07:05:09Z",
+ "published_local": "2026-11-18 09:05",
+ "last_measurement_local": "2026-11-18 09:04:44",
  "station_lag_minutes": 0,
- "n_measurements": 153,
+ "n_measurements": 154,
  "latest": {
   "temp_c": 18,
-  "rh": 94,
+  "rh": 93,
   "dewpt_c": 17,
   "leaf_wetness": 9.0,
   "rain_mm": 0.0,
   "wind_kmh": 0,
-  "solar_wm2": 4.0
+  "solar_wm2": 14.3
  },
  "summary": {
   "wet_hours_last_24h": 4.0,
-  "max_wet_streak_last_24h_h": 3.0,
+  "max_wet_streak_last_24h_h": 4.0,
   "currently_wet": true,
   "avg_rh_while_wet": 93.5,
-  "avg_temp_while_wet": 17.5,
+  "avg_temp_while_wet": 18.0,
   "max_rh_while_wet": 95.0,
   "rain_mm_last_24h": 0.0
  },
  "last_wet_episode": {
   "start": "2026-11-18 06:59",
-  "end": "2026-11-18 08:04",
-  "duration_h": 3.0,
+  "end": "2026-11-18 09:04",
+  "duration_h": 4.0,
   "avg_temp_c": 18.0,
   "max_rh": 95.0,
   "temp_in_range_20_30": false,
@@ -41,14 +41,6 @@
  },
  "station_risk_now": "🟢",
  "hourly_last_48h": [
-  {
-   "t": "2026-11-16 08:59",
-   "temp": 16.0,
-   "rh": 91.0,
-   "lw": 9.0,
-   "lw_src": "estimated",
-   "rain": 0.0
-  },
   {
    "t": "2026-11-16 09:59",
    "temp": 17.0,
@@ -426,9 +418,17 @@
    "rain": 0.0
   },
   {
-   "t": "2026-11-18 08:04",
+   "t": "2026-11-18 08:59",
    "temp": 18.0,
    "rh": 94.0,
+   "lw": 9.0,
+   "lw_src": "estimated",
+   "rain": 0.0
+  },
+  {
+   "t": "2026-11-18 09:04",
+   "temp": 18.0,
+   "rh": 93.0,
    "lw": 9.0,
    "lw_src": "estimated",
    "rain": 0.0
