@@ -1,100 +1,92 @@
 {
  "station": "GRABA Meteo Farm (WU IPLESS26)",
  "field": "GRAVA - Sagiada, Thesprotia",
- "lw_source": "mixed",
- "lw_measured_hours": 46,
- "lw_estimated_hours": 3,
- "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: OK (github, 175')",
+ "lw_source": "estimated",
+ "lw_measured_hours": 0,
+ "lw_estimated_hours": 49,
+ "lw_reference_station": "ΑΣΠΡΟΚΛΗΣΙ: μπαγιάτικο (235' - offline)",
  "lw_note": "Μετρημένο LW από ΑΣΠΡΟΚΛΗΣΙ (~14 km). Όπου λείπει, εκτίμηση από RH/δρόσο/βροχή της ΓΡΑΒΑΣ. Αντικαθίσταται όταν μπει ο ESP32 στο χωράφι.",
  "lw_threshold": 7,
- "published_utc": "2026-11-18T02:05:10Z",
- "published_local": "2026-11-18 04:05",
- "last_measurement_local": "2026-11-18 04:04:14",
+ "published_utc": "2026-11-18T03:05:09Z",
+ "published_local": "2026-11-18 05:05",
+ "last_measurement_local": "2026-11-18 05:04:14",
  "station_lag_minutes": 0,
- "n_measurements": 149,
+ "n_measurements": 150,
  "latest": {
-  "temp_c": 18,
-  "rh": 87,
-  "dewpt_c": 16,
-  "leaf_wetness": 6.0,
+  "temp_c": 19,
+  "rh": 84,
+  "dewpt_c": 17,
+  "leaf_wetness": 4.0,
   "rain_mm": 0.0,
   "wind_kmh": 0,
   "solar_wm2": 0.0
  },
  "summary": {
-  "wet_hours_last_24h": 16.0,
-  "max_wet_streak_last_24h_h": 8.0,
+  "wet_hours_last_24h": 4.0,
+  "max_wet_streak_last_24h_h": 4.0,
   "currently_wet": false,
-  "avg_rh_while_wet": 85.5,
-  "avg_temp_while_wet": 17.2,
+  "avg_rh_while_wet": 94.8,
+  "avg_temp_while_wet": 15.5,
   "max_rh_while_wet": 96.0,
   "rain_mm_last_24h": 0.0
  },
  "last_wet_episode": {
-  "start": "2026-11-17 18:59",
-  "end": "2026-11-18 01:59",
-  "duration_h": 8.0,
-  "avg_temp_c": 17.1,
-  "max_rh": 88.0,
+  "start": "2026-11-17 00:59",
+  "end": "2026-11-17 08:59",
+  "duration_h": 9.0,
+  "avg_temp_c": 16.6,
+  "max_rh": 96.0,
   "temp_in_range_20_30": false,
   "still_ongoing": false
  },
  "station_risk_now": "🟢",
  "hourly_last_48h": [
   {
-   "t": "2026-11-16 04:59",
-   "temp": 15.0,
-   "rh": 93.0,
-   "lw": 10.0,
-   "lw_src": "measured",
-   "rain": 0.0
-  },
-  {
    "t": "2026-11-16 05:59",
    "temp": 16.0,
    "rh": 92.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 9.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-16 06:59",
    "temp": 16.0,
    "rh": 93.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 8.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-16 07:59",
    "temp": 16.0,
    "rh": 93.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 9.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-16 08:59",
    "temp": 16.0,
    "rh": 91.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 9.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-16 09:59",
    "temp": 17.0,
    "rh": 94.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 9.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-16 10:59",
    "temp": 19.0,
    "rh": 89.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 6.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
@@ -102,23 +94,23 @@
    "temp": 21.0,
    "rh": 81.0,
    "lw": 4.0,
-   "lw_src": "measured",
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-16 12:59",
    "temp": 21.0,
    "rh": 81.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 4.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-16 13:59",
    "temp": 21.0,
    "rh": 82.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 4.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
@@ -126,7 +118,7 @@
    "temp": 21.0,
    "rh": 82.0,
    "lw": 4.0,
-   "lw_src": "measured",
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
@@ -134,175 +126,175 @@
    "temp": 21.0,
    "rh": 83.0,
    "lw": 4.0,
-   "lw_src": "measured",
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-16 16:59",
    "temp": 20.0,
    "rh": 86.0,
-   "lw": 2.0,
-   "lw_src": "measured",
+   "lw": 6.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-16 17:59",
    "temp": 20.0,
    "rh": 88.0,
-   "lw": 5.0,
-   "lw_src": "measured",
+   "lw": 6.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-16 18:59",
    "temp": 20.0,
    "rh": 89.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 6.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-16 19:59",
    "temp": 20.0,
    "rh": 91.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 8.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-16 20:59",
    "temp": 20.0,
    "rh": 91.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 8.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-16 21:59",
    "temp": 20.0,
    "rh": 85.0,
-   "lw": 9.0,
-   "lw_src": "measured",
+   "lw": 6.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-16 22:59",
    "temp": 20.0,
    "rh": 85.0,
-   "lw": 9.0,
-   "lw_src": "measured",
+   "lw": 6.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-16 23:59",
    "temp": 19.0,
    "rh": 89.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 6.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-17 00:59",
    "temp": 18.0,
    "rh": 92.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 9.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-17 01:59",
    "temp": 18.0,
    "rh": 94.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 9.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-17 02:59",
    "temp": 17.0,
    "rh": 95.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 9.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-17 03:59",
    "temp": 17.0,
    "rh": 94.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 9.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-17 04:59",
    "temp": 17.0,
    "rh": 96.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 9.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-17 05:59",
    "temp": 16.0,
    "rh": 95.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 9.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-17 06:59",
    "temp": 15.0,
    "rh": 95.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 9.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-17 07:59",
    "temp": 15.0,
    "rh": 96.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 9.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-17 08:59",
    "temp": 16.0,
    "rh": 93.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 9.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-17 09:59",
    "temp": 18.0,
    "rh": 86.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 6.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-17 10:59",
    "temp": 20.0,
    "rh": 79.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 2.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-17 11:59",
    "temp": 22.0,
    "rh": 70.0,
-   "lw": 9.0,
-   "lw_src": "measured",
+   "lw": 2.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-17 12:59",
    "temp": 25.0,
    "rh": 61.0,
-   "lw": 1.0,
-   "lw_src": "measured",
+   "lw": 0.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
@@ -310,7 +302,7 @@
    "temp": 25.0,
    "rh": 58.0,
    "lw": 0.0,
-   "lw_src": "measured",
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
@@ -318,7 +310,7 @@
    "temp": 26.0,
    "rh": 51.0,
    "lw": 0.0,
-   "lw_src": "measured",
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
@@ -326,7 +318,7 @@
    "temp": 25.0,
    "rh": 52.0,
    "lw": 0.0,
-   "lw_src": "measured",
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
@@ -334,79 +326,79 @@
    "temp": 23.0,
    "rh": 58.0,
    "lw": 0.0,
-   "lw_src": "measured",
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-17 17:59",
    "temp": 18.0,
    "rh": 76.0,
-   "lw": 3.0,
-   "lw_src": "measured",
+   "lw": 2.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-17 18:59",
    "temp": 17.0,
    "rh": 83.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 4.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-17 19:58",
    "temp": 16.0,
    "rh": 88.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 6.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-17 20:59",
    "temp": 16.0,
    "rh": 88.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 6.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-17 21:59",
    "temp": 17.0,
    "rh": 85.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 6.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-17 22:59",
    "temp": 18.0,
    "rh": 77.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 2.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-17 23:59",
    "temp": 18.0,
    "rh": 73.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 2.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-18 00:59",
    "temp": 18.0,
    "rh": 81.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 4.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
    "t": "2026-11-18 01:59",
    "temp": 17.0,
    "rh": 83.0,
-   "lw": 10.0,
-   "lw_src": "measured",
+   "lw": 4.0,
+   "lw_src": "estimated",
    "rain": 0.0
   },
   {
@@ -426,10 +418,18 @@
    "rain": 0.0
   },
   {
-   "t": "2026-11-18 04:04",
+   "t": "2026-11-18 04:59",
    "temp": 19.0,
-   "rh": 86.0,
-   "lw": 6.0,
+   "rh": 84.0,
+   "lw": 4.0,
+   "lw_src": "estimated",
+   "rain": 0.0
+  },
+  {
+   "t": "2026-11-18 05:04",
+   "temp": 19.0,
+   "rh": 83.0,
+   "lw": 4.0,
    "lw_src": "estimated",
    "rain": 0.0
   }
